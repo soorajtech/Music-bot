@@ -31,7 +31,6 @@ cd music-bot
 
 ### Install Dependencies
 ```bash
-Copy code
 npm install
 ```
 ### Configuration
