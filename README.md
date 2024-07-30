@@ -65,9 +65,9 @@ Invite the bot to your Discord server using the provided invite link. Use the fo
 - Push to the branch: git push origin my-feature-branch.
 - Create a new Pull Request.
 
-Contact
+### Contact
 For any questions or suggestions, feel free to reach out to us:
 
-Email: soorajskumar004@gmail.com
-Discord: soorajsk
+- Email: soorajskumar004@gmail.com
+- Discord: soorajsk
 Thank you for using MusicBot! Enjoy your music experience! 🎶
