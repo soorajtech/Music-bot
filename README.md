@@ -1,7 +1,5 @@
 # MusicBot
 
-![MusicBot Logo](path_to_logo_image)
-
 MusicBot is a feature-rich Discord music bot that streams high-quality audio from various sources including YouTube and Spotify.
 
 ## Features
@@ -26,4 +24,7 @@ MusicBot is a feature-rich Discord music bot that streams high-quality audio fro
 
 ```bash
 git clone https://github.com/soorajtech/music-bot.git
+```
+``` bash
 cd music-bot
+```
