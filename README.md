@@ -50,16 +50,14 @@ npm start
 ## Usage
 Invite the bot to your Discord server using the provided invite link. Use the following commands to interact with the bot:
 
-!play <song_name_or_url>: Play a song.
-!pause: Pause the current song.
-!resume: Resume the paused song.
-!skip: Skip to the next song.
-!queue: View the current song queue.
-!volume <value>: Set the volume (1-100).
-!playlist <action> <playlist_name>: Manage playlists (create, add, remove, load).
-!search <query>: Search for a song.
-Contributing
-We welcome contributions from the community! To contribute:
+- !play <song_name_or_url>: Play a song.
+- !pause: Pause the current song.
+- !resume: Resume the paused song.
+- !skip: Skip to the next song.
+- !queue: View the current song queue.
+- !volume <value>: Set the volume (1-100).
+- !playlist <action> <playlist_name>: Manage playlists (create, add, remove, load).
+- !search <query>: Search for a song.
 
 ### Fork the repository.
 - Create a new branch: git checkout -b my-feature-branch.
