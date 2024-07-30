@@ -37,9 +37,9 @@ npm install
 - Create a .env file in the root directory of the project.
 - Add the following variables to the .env file:
 ```bash
-DISCORD_TOKEN=your_discord_bot_token
-SPOTIFY_CLIENT_ID=your_spotify_client_id
-SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
+Token= 'your_discord_bot_token'
+SPOTIFY_CLIENT_ID= 'your_spotify_client_id'
+SPOTIFY_CLIENT_SECRET= 'your_spotify_client_secret'
 ```
 ### Run the Bot
 ```bash
