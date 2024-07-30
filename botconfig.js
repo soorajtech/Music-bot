@@ -1,13 +1,13 @@
 const mySecret = process.env['Token']
 module.exports = {
-  Admins: ["804648283343028234"], // Admins of the bot, I don't know what this do. -Darren.
+  Admins: ["804648283343028234"], // Admins of the bot, I don't know what this do. 
   ExpressServer: true, // If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || "-", // Default prefix, Server Admins can change the prefix
   Port: 3000, //Whinpmch port website gonna be hosted
   SupportServer: "https://discord.gg/4cmKZhSECa", // Support Server Link
   Token: process.env.Token || "", // Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "1129282723312316457", // Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "880h0u4x16rm73WAZSGx5hIsH-mxcXwg", // Discord Client Secret
+  ClientID: process.env.Discord_ClientID || "YOUR BOT CLIENT ID", // Discord Client ID
+  ClientSecret: process.env.Discord_ClientSecret || "YOUR BOT CLIENT SECRET", // Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], // Discord OAuth2 Scopes
   ServerDeafen: true, // If you want bot to stay deafened
   DefaultVolume: 100, // Sets the default volume of the bot, You can change this number anywhere from 1 to 9007199254740991 (JS Integer limit. If you do set it to that, you're a monster.)
@@ -30,10 +30,10 @@ module.exports = {
   // You need a lavalink server for this bot to work!!!!
   // Lavalink server; public lavalink -> https://lavalink-list.darrennathanael.com/; create one yourself -> https://darrennathanael.com/post/how-to-lavalink
   Lavalink: {
-    id: "Main", //- Used for indentifier. You can set this to whatever you want.
-    host: "narco.buses.rocks", //- The host name or IP of the lavalink server.
-    port: 2269, // The port that lavalink is listening to. This must be a number!
-    pass: "glasshost1984", //- The password of the lavalink server.
+   id: "Main", //- Used for indentifier. You can set this to whatever you want.
+    host: "lava-v3.ajieblogs.eu.org", //- The host name or IP of the lavalink server.
+    port: 80, // The port that lavalink is listening to. This must be a number!
+    pass: "https://dsc.gg/ajidevserver", //- The password of the lavalink server.
     secure: false, // Set this to true if the lavalink uses SSL. if not set it to false.
     retryAmount: 200, //- The amount of times to retry connecting to the node if connection got dropped.
     retryDelay: 40, //- Delay between reconnect attempts if connection is lost.
